@@ -1,0 +1,19 @@
+--------assingment 1.1 md---------
+name=Assignment-1.1.md Assignment 1.1 — How a Website Works[cite: 1] Task: Explain in a single paragraph how a website opens on the screen after typing a URL.[cite: 1] What to do:
+
+Understand the basic roles of browser, client, server, and database.[cite: 1]
+Write the meanings of HTTP and HTTPS.[cite: 1]
+Explain the request-response cycle.[cite: 1]
+Write the differences between a static and a dynamic website.[cite: 1]
+Open Chrome DevTools and inspect requests in the Network tab of any website.[cite: 1] Submission: An explanatory paragraph and a screenshot of the Network tab.[cite: 1]
+
+
+
+
+answer ------
+
+When you type a URL into a browser, the website loads through a structured client-server communication process called the request-response cycle.
+The browser acts as the client, initiating a request by looking up the website’s IP address and sending an HTTP (Hypertext Transfer Protocol) or secured HTTPS (Hypertext Transfer Protocol Secure) request across the internet. A web server receives this request and processes it. For a static website, the server immediately sends back pre-built, unchanging files (HTML, CSS, JavaScript) that look the same to every visitor. For a dynamic website, the server communicates with a database to fetch live, user-specific data (like user profiles or shopping carts) and generates the page content on the fly. Once the server sends these files back to the client as a response, the browser parses the code and renders the final website seamlessly on your screen.
+
+
+
